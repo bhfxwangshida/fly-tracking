@@ -25,3 +25,10 @@
 
 * newmodel-32-64_seq30_pred10-v0.18
   + Uses temporal CNN instead of GRU. Sequence size 30, prediction size 10, RMSE much better than v0.17, 1st error 0.019, 10th error 0.086
+
+* GRU-32-64_seq20_pred4-y-v0.22
+  + sequence size 20, prediction size 4, 1st error 0.0278,2nd error 0.0342, 3rd error 0.0419, 4th error 0.0498
+  
+* CNN-62-32_seq30_pred4-x-v0.23
+  + sequence size 20, prediction size 4, 1st error 0.027576247837159402,2nd error 0.03127663546590578, 3rd error 0.03856645353681183, 4th error 0.046221460408199244
+  
