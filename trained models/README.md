@@ -1,4 +1,4 @@
-# fly‘s track prediction
+  # fly‘s track prediction
 * v0.02
   + network structure 32-64-64-64, only support one sample, no data preprocessing, MSE 0.03.
   
@@ -25,6 +25,9 @@
 
 * newmodel-32-64_seq30_pred10-v0.18
   + Uses temporal CNN instead of GRU. Sequence size 30, prediction size 10, RMSE much better than v0.17, 1st error 0.019, 10th error 0.086
+
+* CNN-62-128_seq20_pred4-x-v0.21
+  + sequence size 20, prediction size 4, 1st error 0.02582633386143601,2nd error 0.029721176201647187, 3rd error 0.03700379672647405, 4th error 0.04474210147333621
 
 * GRU-32-64_seq20_pred4-y-v0.22
   + sequence size 20, prediction size 4, 1st error 0.0278,2nd error 0.0342, 3rd error 0.0419, 4th error 0.0498
