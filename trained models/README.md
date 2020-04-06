@@ -32,8 +32,11 @@
 * GRU-32-64_seq20_pred4-y-v0.22
   + sequence size 20, prediction size 4, 1st error 0.0278,2nd error 0.0342, 3rd error 0.0419, 4th error 0.0498
   
+* GRU-32-64_seq20_pred4-x-v0.22
+  + 1st error 0.02360844694805981,2nd error 0.02968355305503326, 3rd error 0.0371320898808118, 4th error 0.04497059522528212
+  
 * CNN-62-32_seq30_pred4-x-v0.23
-  + sequence size 20, prediction size 4, 1st error 0.027576247837159402,2nd error 0.03127663546590578, 3rd error 0.03856645353681183, 4th error 0.046221460408199244
+  + sequence size 30, prediction size 4, 1st error 0.027576247837159402,2nd error 0.03127663546590578, 3rd error 0.03856645353681183, 4th error 0.046221460408199244
   
 * CNN-64-32_seq30_pred4-y-v0.23
-  + sequence size 20, prediction size 4, 1st error 0.03489316616816865,2nd error 0.03671460584954812, 3rd error 0.0422472142226861, 4th error 0.04932160879630895
+  + sequence size 30, prediction size 4, 1st error 0.03489316616816865,2nd error 0.03671460584954812, 3rd error 0.0422472142226861, 4th error 0.04932160879630895
